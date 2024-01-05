@@ -1,0 +1,251 @@
+body{
+    height: 3000px;
+    background: linear-gradient(to bottom , rgb(170, 202, 177), rgb(193, 217, 196));
+    margin: 0;
+}
+a {
+  text-decoration: none;
+}
+/* Style the header */
+.header {
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+  background-color: #555;
+  overflow: auto;
+    line-height: 0;
+    padding: 0 0px;
+    margin: 0;
+    height: 8vh;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background: rgb(82, 145, 106);
+    color: #f1f1f1;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-start;
+  }
+.header {
+    float: left;
+  padding: 12px;
+
+  color: white;
+  text-decoration: none;
+
+}
+
+  
+  /* Page content */
+  .content {
+    padding: 1px;
+  }
+  
+  
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 0px;
+  }
+
+  i{
+    font-size:24px;
+    position: absolute;
+    top: 50%;
+  }
+#profile {
+    position: fixed;
+    right: 1%;
+    width:8vh;
+}
+#create  {
+    
+    border-radius: 25px;
+    background: rgb(82, 145, 106);
+    padding: 20px; 
+    width: 220px;
+    margin-top: 20vh;
+    height: 130px;
+    font-size: 4vh;
+    margin-left: 5vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0.5rem 0.5rem rgb(170, 197, 176), -0.5rem -0.5rem rgb(129, 167, 141); 
+    text-align: center;
+    color: #f1f1f1;
+      
+      
+}
+
+#previous {
+    border-radius: 25px;
+    background: rgb(82, 145, 106);
+    padding: 20px; 
+    width: 220px;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    height: 130px;
+    font-size: 4vh;
+    line-height: 0.8;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0.5rem 0.5rem rgb(170, 197, 176), -0.5rem -0.5rem rgb(129, 167, 141); 
+    text-align: center;
+    color: #f1f1f1;
+}
+
+#studyset {
+    background: rgb(82, 145, 106);
+    width: 80vh;
+    height: 80%;
+    position: absolute;
+    top: 24vh;
+    right: 55vh;
+    overflow: scroll;
+   
+}
+
+#h3 {
+    position: absolute;
+    height: 15%;
+    line-height: .7;
+    text-align: center;
+    font-size: 75px;
+    width:20%;
+    top:-100%;
+    left:40%;
+}
+
+
+
+h3 {
+    position: absolute;
+    top: 10%;
+    left: 43.3%;
+    color: #fff;
+    background-color:rgb(145, 180, 152);
+    padding: 1vh;
+    font-size: 35px;
+}
+
+h2 {
+    line-height: .7;
+    font-size: 6vh;
+}
+
+#peopleicon {
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+* {
+    outline: none;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    
+  }
+  
+
+
+  
+  
+#studyas {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:0%;
+    top:5%;
+    width:48%;
+    height:50%;
+}
+
+#studyqs {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left:5%;
+  top:5%;
+  margin-bottom: 1vh;
+  width:48%;
+  height:50%;
+}
+
+
+#box {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1vh;
+    background-color: rgb(226, 235, 228);;
+    text-align: center;
+    font-size: 5vh;
+}
+
+#box2 {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 1vh;
+  background-color: rgb(226, 235, 228);;
+  text-align: center;
+  font-size: 5vh;
+}
+
+
+  
+  
+  #studyqs #box {
+    margin-right: 5%;
+  }
+  
+  #studyas #box2 {
+    margin-left: 5%;
+  }
+
+  h2 {
+    top:0;
+    margin: 0;
+    line-height: 1;
+    font-size: 6vh;
+    color: #ffffff;
+}
+
+#userInput{
+position: absolute;
+left:0%;
+top: 0%;
+width: 80%;
+height: 10%;
+font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  color:rgb(103, 167, 106);
+  border: 2px solid rgb(103, 167, 106);
+}
+
+
+.inputq {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  color:rgb(103, 167, 106);
+  border: 2px solid rgb(103, 167, 106);
+}
+
+.inputa {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  color:rgb(103, 167, 106);
+  border: 2px solid rgb(103, 167, 106);
+}

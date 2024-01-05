@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<html class="background">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
+
+
+<title>studyhacks</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='startpage.css') }}">
+
+
+<div class="header" id="myHeader">
+  <a href="startpage.html">
+  <h2>Study Hacks</h2>
+</a>
+    <img src="/static/profile.png" id="profile">
+  
+</div>
+
+        <body onload="myFunction()">
+        
+        <div class="header" id="myHeader">
+            <h2>study hacks</h2>
+            <a href = "login.html">
+            <img src="/static/profile.png" id="profile">
+            </a>
+          </div>
+          
+          <img src="/static/greenpeople.png" id="peopleicon">
+    
+          <a href="{{url_for('create')}}">
+                 
+                <div id="create">   
+                    
+                    <h2>create studyset</h2>
+                   
+                </div>
+              </a>
+              
+              <a href = "play.html">
+                <div id="previous" >
+                    <h2>previous studyset</h2>
+                  
+                    <div id="prevname">
+                    <h3> apes </h3>
+                    
+                     </div>
+                    </div>
+                  
+                </a>
+    
+                <div id="studyset">
+                    <h3> apes </h3>
+                    <div id="studyqs">
+                    
+                </div>
+                </div>
+                <div id="cover2">
+                    <form method="get" action="">
+                      <div class="tb">
+                        <div class="td"><input type="text" placeholder="search" required></div>
+                        <div class="td" id="s-cover">
+                          <button type="submit">
+                            <div id="s-circle"></div>
+                            <span></span>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                
+                <div id="cover">
+                    <form method="get" action="">
+                      <div class="tb">
+                        <div class="td"><input type="text" placeholder="open friend's quizlet" required></div>
+                        <div class="td" id="s-cover">
+                          <button type="submit">
+                            <div id="s-circle"></div>
+                            <span></span>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+    
+    </body>
+    
+    </html>
